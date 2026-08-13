@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c/Users/senga/Downloads/**)"
+      "Read(//c/Users/senga/Downloads/**)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "PowerShell($r = Invoke-WebRequest -Uri \"https://trello.com/b/nC8QJJoZ/trello-development-roadmap\" -UseBasicParsing -UserAgent \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 Chrome/126.0 Safari/537.36\" -TimeoutSec 30; $r.StatusCode; $r.Content.Length; if \\($r.Content -match 'data-testid'\\) { \"HAS testid\" } else { \"no testid\" })",
+      "Bash(node -e ' *)",
+      "Bash(npm ls *)",
+      "Bash(node -e \"try{require\\('jsdom'\\);console.log\\('jsdom OK'\\)}catch\\(e\\){console.log\\('no jsdom'\\)}\")"
     ]
   }
 }
